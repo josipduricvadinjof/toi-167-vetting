@@ -13,6 +13,7 @@ Result: Candidate passes both vetting checks; recovered period is stable across 
 
 
 Repository Structure:
+
 notebooks/   → Full analysis notebook (Jupyter) 
 
 reports/     → Written vetting report (Markdown)
