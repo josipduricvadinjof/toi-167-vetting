@@ -12,13 +12,10 @@ Result: Candidate passes both vetting checks; recovered period is stable across 
 <img width="972" height="465" alt="image" src="https://github.com/user-attachments/assets/1755e39d-b91d-4a6e-8048-228b6c83f933" />
 
 
-Repository Structure
-
+Repository Structure:
 notebooks/   → Full analysis notebook (Jupyter)
-
 reports/     → Written vetting report (Markdown)
-
-figures/     → Saved plots referenced in the report and notebook
+LICENSE
 
 Methodology
 Search and download TESS light curves via lightkurve (SPOC pipeline, 2-min cadence)
