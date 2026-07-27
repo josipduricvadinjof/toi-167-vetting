@@ -13,9 +13,9 @@ Result: Candidate passes both vetting checks; recovered period is stable across 
 
 
 Repository Structure:
-notebooks/   → Full analysis notebook (Jupyter)
-reports/     → Written vetting report (Markdown)
-LICENSE
+notebooks/   → Full analysis notebook (Jupyter) 
+reports/     → Written vetting report (Markdown) 
+LICENSE 
 
 Methodology
 Search and download TESS light curves via lightkurve (SPOC pipeline, 2-min cadence)
