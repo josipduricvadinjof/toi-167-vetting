@@ -7,6 +7,7 @@ Target: TIC 149990841 (TOI-167.01)
 Recovered period: 4.453045 days (matches ExoFOP catalog value of 4.453 days)
 Data used: 25 TESS sectors (2019–2025), 2-minute cadence, SPOC pipeline
 Vetting tests applied: Odd-even transit depth comparison, centroid (photocenter) shift analysis
+Estimated planet radius: ~12.2 R⊕ (~1.09× Jupiter radius), based on transit depth and ExoFOP stellar parameters — consistent with a gas-giant companion. See full report for calculation and caveats.
 Result: Candidate passes both vetting checks; recovered period is stable across independent data subsets. Transit depth (~1%) remains an open question — see full report for discussion.
 
 <img width="972" height="465" alt="image" src="https://github.com/user-attachments/assets/1755e39d-b91d-4a6e-8048-228b6c83f933" />
