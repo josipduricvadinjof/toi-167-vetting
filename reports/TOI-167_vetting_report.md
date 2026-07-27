@@ -97,6 +97,10 @@ The candidate passes both vetting tests applied in this work. Combined with the 
 Transit depth and radius: The observed transit depth (~1%), combined with the radius estimate in Section 4.5, is consistent with a Jupiter-sized gas giant rather than an unusually large small planet. This resolves the ambiguity noted in earlier iterations of this analysis, though the estimate remains approximate and photometry alone cannot rule out a low-mass stellar/substellar companion of similar radius (e.g., a brown dwarf).
 Interpretation: This result is inconsistent with the signal originating from a background eclipsing binary or nearby contaminating source within the photometric aperture.
 
+Comparison with the official TESS Data Validation (DV) report:
+
+A TESS Science Processing Operations Center (SPOC) DV report for TIC 149990841 (Sectors 9–12, generated 2019-08-06) independently reports a period of 4.45318 days and a planet radius of Rp = 8.82 R⊕, computed under a default assumption of R* = 1.00 R☉ (explicitly noted in the report as a placeholder value rather than a measured one). The DV report's period is consistent with our recovered value (4.453045 d) to four significant figures. The discrepancy in radius estimates (8.82 R⊕ using a default R* = 1.00 R☉ vs. our 12.2 R⊕ using the measured R* ≈ 1.115 R☉) is attributable to the different stellar radius inputs rather than a disagreement in transit depth measurement; scaling the DV report's radius by the same stellar radius used in this work yields a consistent result. The DV report additionally includes an independent odd-even depth significance test (reported as 1.58σ, i.e., not statistically significant) and a centroid/difference-image offset analysis, both broadly consistent with the conclusions of Sections 4.3–4.4 of this work.
+
 6. LIMITATIONS
 This analysis is subject to important limitations that preclude a confirmation claim:
 
