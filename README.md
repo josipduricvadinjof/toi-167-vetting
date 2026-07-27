@@ -28,14 +28,8 @@ Full methodology and results are in reports/TOI-167_vetting_report.md.
 
 TESS light curves retrieved from the Mikulski Archive for Space Telescopes (MAST) via the lightkurve Python package. Candidate parameters from ExoFOP-TESS.
 
-Disclaimer
-
+Disclaimer:
 This is an independent, community-level vetting analysis and does not constitute official TFOP (TESS Follow-up Observing Program) confirmation. See the limitations section of the full report for details.
 
-License
-
-MIT License — see LICENSE.
-
-Author
-
+Author:
 Josip Đurić Vadinjof, Faculty of Electrical Engineering and Computing (FER), University of Zagreb
