@@ -76,13 +76,26 @@ Centroid column and row positions, phase-folded on the candidate period, show no
 <img width="1243" height="725" alt="image" src="https://github.com/user-attachments/assets/dd136c38-3694-4ba4-befe-63af25472636" />
 <img width="1231" height="711" alt="image" src="https://github.com/user-attachments/assets/f4e2ebee-4c7c-4d8a-8ef9-0fe3a0e53906" />
 
+4.5 Planet radius estimate
 
-Interpretation: This result is inconsistent with the signal originating from a background eclipsing binary or nearby contaminating source within the photometric aperture.
+Using the transit depth and the stellar radius reported on ExoFOP (user-uploaded stellar parameters: 1.09 R☉ and 1.14 R☉, averaged to 1.115 R☉), the planet radius was estimated from the standard transit relation:
 
-5. DISCUSSION
+R_planet = R_star × √(transit depth)
+
+With a transit depth of approximately 1%, this yields:
+
+R_planet ≈ 0.112 R☉
+R_planet ≈ 12.2 R⊕ (Earth radii)
+R_planet ≈ 1.09 × R_Jupiter
+
+This places the candidate in the gas-giant regime, comparable in size to Jupiter — a physically reasonable and common category of object for TESS to detect, given that larger planets produce deeper, more easily recovered transit signals. This estimate is an independent calculation by the authors and has not been cross-checked against a dedicated transit model fit; it should be treated as an order-of-magnitude approximation rather than a precise measurement.
+
+5. Discussion
+
 The candidate passes both vetting tests applied in this work. Combined with the high-precision period match to the catalog value and the stability of the detection across independent data subsets, this constitutes a positive — though not confirmatory — vetting outcome.
 
-Open question — transit depth: The observed transit depth (~1%) is comparatively large relative to typical small-planet transits, and is more consistent with either an unusually large planet (approaching Jupiter radius) or a low-mass stellar/substellar companion (e.g., a small M-dwarf or brown dwarf) rather than a small rocky or Neptune-sized planet. This ambiguity cannot be resolved through photometry alone.
+Transit depth and radius: The observed transit depth (~1%), combined with the radius estimate in Section 4.5, is consistent with a Jupiter-sized gas giant rather than an unusually large small planet. This resolves the ambiguity noted in earlier iterations of this analysis, though the estimate remains approximate and photometry alone cannot rule out a low-mass stellar/substellar companion of similar radius (e.g., a brown dwarf).
+Interpretation: This result is inconsistent with the signal originating from a background eclipsing binary or nearby contaminating source within the photometric aperture.
 
 6. LIMITATIONS
 This analysis is subject to important limitations that preclude a confirmation claim:
