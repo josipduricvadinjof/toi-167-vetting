@@ -20,7 +20,8 @@ reports/     → Written vetting report (Markdown)
 
 LICENSE 
 
-Methodology
+Methodology:
+
 Search and download TESS light curves via lightkurve (SPOC pipeline, 2-min cadence)
 Stitch sectors, remove NaNs and outliers, flatten to remove stellar variability
 Run a Box Least Squares (BLS) periodogram search
